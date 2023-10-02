@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    background-color: #e5e5f7;
 }
 
 button{
@@ -8,11 +9,11 @@ button{
 }
 
 button:hover{
-    background-image: url(/danilo-desimpedidos.gif);
+    background-image: url(./Flag_of_Bhutan.svg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 320px;
-    width: 170px;
-    transition: 9ms;
+    height: 170px;
+    width: 250px;
+    color: black;
 }
