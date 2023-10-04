@@ -1,11 +1,47 @@
 body{
     height: 100vh;
-    background-color: #e5e5f7;
+    background-color: #bfbff8;
+    margin:0;
+    padding:0;
 }
+
+header{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 1.3rem;
+}
+nav a:hover{
+    font-size: 1.5rem;
+    transition: 500ms;
+    text-decoration: overline #bfbff8;
+    color: #bfbff8;
+}
+
+h1, label, input{
+    margin: 5px;
+}
+
 
 button{
     background-color: black;
     color: blanchedalmond;
+    margin: 5px;
 }
 
 button:hover{
@@ -13,7 +49,44 @@ button:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 170px;
-    width: 250px;
+    height: 80px;
+    width: 175px;
     color: black;
+}
+
+#danilo{
+    position: absolute;
+    left: 800px;
+    top: 05px;
+    border: 5px solid black;
+    border-radius: 50px;
+    transform: scale(0.8);
+}
+
+#seg{
+    color: #bfbff8;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    text-decoration: none;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+td{
+    border: 1px solid black;
+    background-color: blanchedalmond;
 }
